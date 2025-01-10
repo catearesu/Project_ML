@@ -95,12 +95,15 @@ Variables continuas VS variables categoricas
 - Checking null values: o cargarse las filas, reemplazar con media, intepolación. Solo estaban presentes en NrSiblings.
 
 No me gustó ninguna opción, así que opté por asignar los nulos proporcionalmente a los valores que tengo, para no distorsionar la distribución.
+
 ![alt text](<Images/Captura de pantalla 2025-01-09 a las 21.08.13.png>)
 
 - Dealing with outliers: he aplicado el interquartile method, quedandome con los valores mayores que el lower limit.
 
-![alt text](Images/image-20.png)
-![alt text](Images/image-13.png)
+<p align="center">
+  <img src="Images/image-20.png" width="38%" style="display: inline-block; margin-right: 10px;"/>
+  <img src="Images/image-13.png" width="38%" style="display: inline-block;"/>
+</p>
 
 Intenté normalizar los datos con BOX-COX pero los valores se disparaban hasta llegar a 140, lo cual no tenía mucho sentido.
 
@@ -189,6 +192,7 @@ Para comprobar si la variable LunchType depende significativamente por ejemplo d
 Esto nos permite verificar si la distribución de LunchType entre los diferentes niveles de educación de los padres/etnias es aleatoria o si hay una dependencia significativa.
 
 Valor p del test de chi-cuadrado parent educ: 0.431680941674747
+
 Valor p del test de chi-cuadrado grupo etnico: 0.60314857775413
 
 <p align="center">
