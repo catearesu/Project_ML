@@ -9,7 +9,6 @@
 - [Web Scraping](#web-scraping)
 - [Students Performance Analysis](#students-performance-analysis)
 - [Modelos de Machine Learning](#modelos-de-machine-learning)
-- [Conclusiones](#conclusiones)
 
 # Introducción
 Este proyecto tiene como objetivo realizar un análisis integral utilizando dos enfoques: **Web Scraping** para extraer datos contextuales de una página web relevante y **Machine Learning** para predecir el rendimiento de los estudiantes en MATH SCORE.
