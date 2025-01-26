@@ -105,8 +105,6 @@ No me gustó ninguna opción, así que opté por asignar los nulos proporcionalm
   <img src="Images/image-13.png" width="38%" style="display: inline-block;"/>
 </p>
 
-Intenté normalizar los datos con BOX-COX pero los valores se disparaban hasta llegar a 140, lo cual no tenía mucho sentido.
-
 - Revisar Multicolinealidad
 
 1. Scatterplot
