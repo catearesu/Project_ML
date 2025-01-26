@@ -87,9 +87,9 @@ El dataset se compone por un poco más de 30.000 observaciones y 14 columnas.
 - WritingScore writing test score (0-100)
 
 ### Diferenciación de Variables
-Variables continuas VS variables categoricas
+Variables numéricas VS variables categoricas
 
-**Variables Continuas** (nr siblings, math score, reading score y writing score)
+**Variables Numéricas** (nr siblings, math score, reading score y writing score)
 
 - Revisar duplicados.
 - Checking null values: o cargarse las filas, reemplazar con media, intepolación. Solo estaban presentes en NrSiblings.
