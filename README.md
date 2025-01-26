@@ -32,13 +32,13 @@ En 2024, la nota media de Math y Reading y Writing ha sido la más baja comparad
 
 ### **ETNIA**
 <p align="center">
-  <img src="Images/image-1.png" width="48%" style="display: inline-block; margin-right: 10px;"/>
-  <img src="Images/image-2.png" width="48%" style="display: inline-block;"/>
+  <img src="Images/image-44.png" width="48%" style="display: inline-block; margin-right: 10px;"/>
+  <img src="Images/image-39.png" width="48%" style="display: inline-block;"/>
 </p>
 
 Los estudiantes **asiaticos** son los que mejores notas en promedio han sacado, seguidos por los **blancos** y los estudiantes de **2 o más etnias**
 
-![alt text](Images/image-4.png)
+![alt text](Images/image-40.png)
 
 El último grupo está formado por estudiantes **American Indian/Nativos de Alaska**, el segundo grupo con puntuaciones más bajas está constituido por los **negros**.
 
@@ -52,18 +52,18 @@ El último grupo está formado por estudiantes **American Indian/Nativos de Alas
 
 Observamos que en Math los hombres sacan mejor notas que las mujeres y en Reading y Writing pasa lo contrario.
 
-![alt text](Images/image-8.png)
+![alt text](Images/image-41.png)
 
 ### **NIVEL EDUCATIVO DE LOS PADRES**
 
 <p align="center">
-  <img src="Images/image-9.png" width="48%" style="display: inline-block; margin-right: 10px;"/>
-  <img src="Images/image-12.png" width="48%" style="display: inline-block;"/>
+  <img src="Images/image-45.png" width="48%" style="display: inline-block; margin-right: 10px;"/>
+  <img src="Images/image-42.png" width="48%" style="display: inline-block;"/>
 </p>
 
 El nivel educativo de los padres parece influir en las notas tanto de Math como de ERW, concluyendo que a mayor nivel educativo más alta es la nota media.
 
-![alt text](Images/image-10.png)
+![alt text](Images/image-43.png)
 
 # Students Performance Analysis
 
@@ -72,7 +72,7 @@ El nivel educativo de los padres parece influir en las notas tanto de Math como 
 El dataset se compone por un poco más de 30.000 observaciones y 14 columnas.
 
 - Gender: género del estudiante (hombre/mujer)
-- EthnicGroup: grupo etnico(A, B, C, D, E)
+- EthnicGroup: grupo etnico(A, B, C, D, E), siendo A:Other Ethnicity, B:Black/African American, C:White/Caucasian, D:Hispanic/Latinos y E:Asians.
 - ParentEduc: nivel de estudio de los padres(desde el highschool hasta el master's degree)
 - LunchType: tipo de comida (standard o free/reduced)
 - TestPrep: curso de preparación al test(completed or none)
@@ -342,3 +342,10 @@ estas variables no explican el modelo.
 - Ridge y Lasso
 
 ![alt text](<Images/Captura de pantalla 2025-01-10 a las 20.52.33.png>)
+
+### Me quedo con Ridge y la media de Reading y Writing Score, me da un mejor R2 y MSE
+Ridge reduce dimensionalidades, hace que los coeficientes sean más bajos.
+
+### Predicciones
+
+![alt text](<Images/Captura de pantalla 2025-01-26 a las 13.42.46.png>)
